@@ -1,3 +1,11 @@
+/**
+ * Stylesheet for the weather app UI.
+ * 
+ * Sets up overall page styles, fonts, colors, and layout.
+ * Includes media queries for responsive design on mobile.
+ * Defines styles for specific UI components like title, cards, search bar, weather display, etc.
+ */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +18,7 @@ body {
   background-color: rgb(26, 26, 26);
   color: #ebfffc;
 }
+
 #title {
   color: #ebfffc;
   text-transform: capitalize;
@@ -17,6 +26,7 @@ body {
   color: #5b548a;
   margin: 50px auto 0;
 }
+
 .card {
   width: 100%;
   max-width: 400px;
@@ -38,6 +48,7 @@ body {
   padding: 0;
   position: absolute;
 }
+/*search bar and button image */
 .search {
   width: 100%;
   display: flex;
@@ -71,6 +82,7 @@ body {
   flex: 1;
 }
 
+/* weather icons settings */
 .weather-icon {
   width: 150px;
 }
@@ -86,6 +98,7 @@ body {
   margin-top: -10px;
 }
 
+/* weather details sections*/
 .details {
   display: flex;
   align-items: center;
@@ -111,14 +124,17 @@ body {
   font-weight: 500;
 }
 
-@media screen and (max-width: 700px) {
+/* responsive design for mobile views */
+@media screen and (max-width: 450px) {
   #title {
     font-size: 20px;
   }
+
   .card {
     width: 100%;
     max-width: 300px;
   }
+
   .search {
     width: 100%;
     display: flex;
@@ -145,6 +161,7 @@ body {
   .weather-icon {
     width: 100px;
   }
+
   .weather h1 {
     font-size: 40px;
     font-weight: 400;
@@ -154,6 +171,7 @@ body {
     font-size: 20px;
     font-weight: 300;
   }
+
   .details {
     margin-top: 30px;
     padding: 0 10px;
@@ -168,6 +186,7 @@ body {
   .humidity {
     font-size: 15px;
   }
+
   .weather-type {
     font-size: 15px;
     font-weight: 100;
