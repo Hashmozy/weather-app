@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
+    <!-- title -->
     <h1 id="title">weather forecasting</h1>
+    <!-- weather card -->
     <div class="card">
       <div class="search">
         <input type="text" placeholder="enter city name" spellcheck="false" />
@@ -18,6 +20,10 @@
           >
         </button>
       </div>
+      <div class="error">
+        <p>Invalid city/country/area name !</p>
+      </div>
+      <!-- weather details container -->
       <div class="weather">
         <img src="/images/rain.png" alt="weather-image" class="weather-icon" />
         <h1 class="temp">20°c</h1>

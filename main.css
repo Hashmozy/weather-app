@@ -64,6 +64,11 @@ body {
   outline: 0;
   cursor: pointer;
   background-color: #ebfffc;
+  transition: all 0.2s;
+}
+
+.search button:hover {
+  background: #f3fffcc8;
 }
 
 .search button img {
@@ -122,6 +127,20 @@ body {
 .humidity {
   font-size: 20px;
   font-weight: 500;
+}
+
+.weather {
+  display: none;
+}
+
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 16px;
+  display: none;
+  color: rgba(82, 32, 32, 0.742);
 }
 
 /* responsive design for mobile views */
