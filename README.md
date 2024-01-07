@@ -1,4 +1,4 @@
-# A Javascript Responsive Weather App
+## A Javascript Responsive Weather App
 
 A javascript weather app that focuses on the use and calling of API's and a responsive design principals .
 
@@ -34,3 +34,11 @@ node app.js / might run on live server as well
 ###### Usage
 
 This project can be used for learning
+
+## web view
+
+![1704615913588](image/README/1704615913588.png)
+
+## mobile view
+
+![1704615941305](image/README/1704615941305.png)
