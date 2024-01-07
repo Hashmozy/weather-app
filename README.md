@@ -1,8 +1,8 @@
-# A Javascript Weather Quiz App
+# A Javascript Responsive Weather App
 
-A javascript quiz app that focuses on the use and calling of API's .
+A javascript weather app that focuses on the use and calling of API's and a responsive design principals .
 
-### This project was created to demostrate the use of javascript async functions for calling on api urls nd using them in the project.
+### This project was created to demostrate the use of javascript async functions for calling on api urls and using them in the project plus a responsive design using css3.
 
 ##### Getting Started
 
